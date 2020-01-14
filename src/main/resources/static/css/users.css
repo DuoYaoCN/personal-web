@@ -1,0 +1,25 @@
+.circle{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border: 7px white solid;
+    border-right-color:#809a70;
+    border-bottom-color: #809a70;
+    border-radius: 100%;
+    animation: loading1 1s infinite linear;
+}
+@keyframes loading1{
+    from{transform: rotate(0deg)}to{transform: rotate(360deg)}
+}
+.clock{
+	opacity: 0
+}
+#clock div li{
+    display: inline-block ;
+}
+.d{
+    font-size: 25px;
+}
+.dhms{
+    font-size: 55px;
+}
